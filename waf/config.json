@@ -1,0 +1,28 @@
+{
+  "origin_url": "https://localhost:9000",
+  "rules": [
+    {
+      "id": 0,
+      "name": "IP Fingerprinting"
+    },
+    {
+      "id": 1,
+      "name": "Header Fingerprinting"
+    },
+    {
+      "id": 3,
+      "name": "TLS Fingerprinting"
+    }
+  ],
+  "blocked_subnets": [
+    "192.168.1.0/24",
+    "10.0.0.0/8"
+  ],
+  "valid_headers": [
+    "User-Agent",
+    "Accept",
+    "Accept-Language"
+  ],
+  "cert_file_location": "localhost.crt",
+  "key_file_location": "localhost.key"
+}
